@@ -26,8 +26,8 @@ SECRET_KEY = cred.secret_key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = cred.debug
 
-ALLOWED_HOSTS = cred.allowed_hosts
-
+#ALLOWED_HOSTS = cred.allowed_hosts
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
